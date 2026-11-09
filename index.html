@@ -788,7 +788,7 @@ html.anim .in .sw.no::before,html.anim .in .sw.no::after{--x:1}
   var form=document.getElementById('f');
   // Ответы гостей уходят в Google Таблицу (см. README.md → «Подсчёт гостей»).
   // Вставьте сюда адрес веб-приложения Google Apps Script:
-  var RSVP_URL='';
+  var RSVP_URL='https://ejyhzbzyiwwxozvtzeif.supabase.co/rest/v1/rpc/submit_rsvp?apikey=sb_publishable_gHMRxEshb3Gxfm0dFKY1ng_Ud9IHjwH';
   var err=document.getElementById('rsvpErr'),sendBtn=form.querySelector('.btn');
   form.addEventListener('submit',function(e){e.preventDefault();var nm=document.getElementById('nm');
     if(!nm.value.trim()){nm.focus();nm.setAttribute('aria-invalid','true');nm.placeholder='Пожалуйста, укажите имя';return;}
