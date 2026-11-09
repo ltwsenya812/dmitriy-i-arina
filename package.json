@@ -1,0 +1,12 @@
+{
+  "name": "dmitriy-i-arina",
+  "private": true,
+  "description": "Свадебное приглашение Дмитрия и Арины",
+  "scripts": {
+    "test": "playwright test",
+    "perf": "node tests/perf-probe.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
